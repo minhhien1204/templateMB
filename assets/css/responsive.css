@@ -114,7 +114,7 @@
         font-size:16px;
     }
     .dtr-blog-item h5 {
-        font-size: 22px;
+        font-size: 16px;
     }
 .title-video h5 {
     font-size: 20px;
@@ -135,7 +135,11 @@
 }
 
 @media (max-width: 767px) {
-   
+
+.box-same-series {
+    height: auto;
+    overflow-y: auto;
+}
 	.pitech-story{
 		text-align:center;
 		padding-bottom: 20px;
